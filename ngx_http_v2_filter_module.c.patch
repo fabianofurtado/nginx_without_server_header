@@ -1,5 +1,5 @@
---- nginx-1.26.0/src/http/v2/ngx_http_v2_filter_module.c	2024-04-23 11:04:32.000000000 -0300
-+++ nginx-1.26.0_patched/src/http/v2/ngx_http_v2_filter_module.c	2024-04-23 19:21:41.433118932 -0300
+--- src/http/v2/ngx_http_v2_filter_module.c	2024-04-23 11:04:32.000000000 -0300
++++ src/http/v2/ngx_http_v2_filter_module_new.c	2024-04-23 19:21:41.433118932 -0300
 @@ -115,19 +115,12 @@
      ngx_http_core_srv_conf_t  *cscf;
      u_char                     addr[NGX_SOCKADDR_STRLEN];
