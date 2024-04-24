@@ -22,5 +22,6 @@ At this point, you could run `ngx_patch.sh` or could execute manually these comm
     $ patch -d nginx-1.26.0/ -Np0 < ngx_http_header_filter_module.c.patch
     $ patch -d nginx-1.26.0/ -Np0 < ngx_http_special_response.c.patch
     $ patch -d nginx-1.26.0/ -Np0 < ngx_http_v2_filter_module.c.patch
+    $ patch -d nginx-1.26.0/ -Np0 < ngx_http_v3_filter_module.c.patch
 
 Your NGINX code is now patched! Compile it and enjoy!
